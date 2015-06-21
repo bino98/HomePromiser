@@ -50,6 +50,6 @@ production:
   reconnect: false
   database: homepromiser_production
   pool: 5
-  username: root
-  password:
+  username: b8624d04f5322c
+  password: 95f0fa62
   host: localhost
