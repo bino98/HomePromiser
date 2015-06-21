@@ -16,6 +16,10 @@ group :doc do
 	gem 'sdoc', '~> 0.4.0', require: false
 end
 
+group :production do
+	gem 'rails_12factor'
+end
+
 group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
